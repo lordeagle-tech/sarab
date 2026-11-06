@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sarab
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    autoDeploy: true
